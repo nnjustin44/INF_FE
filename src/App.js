@@ -10,7 +10,8 @@ function App() {
       <body className="body">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="timer">
-          <code>Timer</code>
+          16:00:00
+          <code> Timer</code>
         </p>
         <a
           className="App-link"
