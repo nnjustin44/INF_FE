@@ -1,9 +1,11 @@
-let startingMinutes = 10;
-let time = startingMinutes * 60;
+document.getElementsByClassName("timer").innerHTML=`
 
-let countDownEl = document.getElementsByClassName("timer");
+<div className="base-timer">
+<svg className="base-timer__svg" viewbox="0 0 100 100" >
+  <g>
+<circle className="base-timer__path-elapsed" cx="50" cy="50 r=45"></circle>
+</g>
+</svg>
+</div>
 
-function updateTimer() {
-  time--;
-  return;
-}
+`;

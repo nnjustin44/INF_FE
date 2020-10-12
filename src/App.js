@@ -1,16 +1,19 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import "./timer.js";
+// import * as moment from "moment;"
 
 function App() {
   return (
     <div className="App">
       <title>Intermitant Fasting</title>
-      <header className="App-header">Intermitant Fasting</header>
+      <header className="App-header">
+        Intermitant Fasting</header>
       <body className="body">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p className="timer">
-          16:00:00
+         
           <code> Timer</code>
         </p>
         <a
